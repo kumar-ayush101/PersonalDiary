@@ -1,0 +1,31 @@
+# Root level
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Vite or frontend-specific
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+frontend/vite.svg
+frontend/.vite
+
+# React or other cache
+frontend/.next/
+frontend/.turbo/
+
+# Backend-specific
+backend/node_modules/
+backend/.env
+backend/.DS_Store
+
+# Logs and debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Thumbs.db
